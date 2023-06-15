@@ -1,0 +1,14 @@
+.nav-bar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  background: linear-gradient(138deg, rgba(9,4,94,1) 8%, rgba(24,3,24,1) 21%, rgba(120,1,115,1) 22%, rgba(19,2,19,1) 23%, rgba(2,0,36,1) 33%, rgba(7,10,161,1) 42%, rgba(2,0,36,1) 50%, rgba(35,44,231,1) 66%, rgba(6,214,121,1) 89%, rgba(3,20,88,1) 100%);
+  clip-path: polygon(0 0, 0 100%, 10% 88%, 13% 99%, 19% 89%, 22% 98%, 28% 88%, 32% 98%, 39% 89%, 46% 99%, 54% 86%, 59% 98%, 63% 88%, 65% 98%, 72% 87%, 75% 98%, 80% 89%, 83% 98%, 89% 87%, 93% 97%, 98% 89%, 100% 100%, 100% 0);
+}
+.nav-bar--links {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 21px;
+}
