@@ -1,32 +1,29 @@
 .work-container {
   display: grid;
   grid-template-columns: 33% 33% 33%;
+  grid-row-gap: 60px;
   align-items: center;
   justify-content: center;
 }
 .image--square {
+  position: relative;
   width: 200px;
   height: 150px;
-  opacity: 55%;
-  position: relative;
   background-color: gray;
+  border-radius: 15%;
+  display: flex;
+
 
 }
 .work-images {
   width: 100%;
   height: 100%;
+  border-radius: 15%;
+}
 
+.work-links {
   border-radius: 15%;
 }
 .test {
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
   position: absolute;
-  border-radius: 15%;
-
-
 }
-
-

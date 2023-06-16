@@ -6,18 +6,25 @@ const Works = () => {
     return(
         <div className='work-container'>
             <div className='image--square'>
-
-                <Link className='test' to='https://zessh1.github.io/shelter/pages/main/index.html'></Link>
-                <img className='work-images' src={require('../../images/shelter.PNG')}/>
+                <Link className='work-links' to='https://zessh1.github.io/shelter/pages/main/index.html'>
+                    <img className='work-images' src={require('../../images/shelter.PNG')}/>
+                </Link>
+                <p className='test'>sss</p>
             </div>
             <div className='image--square'>
-                <img className='work-images' src={require('../../images/book-shop.PNG')}/>
+                <Link className='work-links' to='https://zessh1.github.io/shelter/pages/main/index.html'>
+                    <img className='work-images' src={require('../../images/book-shop.PNG')}/>
+                </Link>
             </div>
             <div className='image--square'>
-                <img className='work-images' src={require('../../images/english-for-kids.PNG')}/>
+                <Link className='work-links' to='https://zessh1.github.io/shelter/pages/main/index.html'>
+                    <img className='work-images' src={require('../../images/english-for-kids.PNG')}/>
+                </Link>
             </div>
             <div className='image--square'>
-                <img className='work-images' src={require('../../images/star-match.PNG')}/>
+                <Link className='work-links' to='https://zessh1.github.io/shelter/pages/main/index.html'>
+                    <img className='work-images' src={require('../../images/star-match.PNG')}/>
+                </Link>
             </div>
         </div>
     )
