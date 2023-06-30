@@ -1,5 +1,43 @@
+.app-container {
+    position: relative;
+}
+.burger-component {
 
-.app-content--container {
-    width: 1280px;
-    margin: 0 auto;
+    display: none;
+    background-color: gray;
+    opacity: 90%;
+    width: 300px;
+    height: 100%;
+    padding-bottom: 70px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.active {
+    display: block;
+
+}
+.burger-nav {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.burger-nav-link {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 21px;
+    text-shadow: 0 0 4px white;
+}
+.burger-nav-link:hover {
+    text-shadow: 0 0 6px #ffd500, 0 0 4px #ffd500, 0 0 5px #ffd500;
+}
+@media screen and (min-width: 600px) {
+    .burger-component {
+        display: none;
+    }
+
 }

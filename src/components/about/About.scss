@@ -1,32 +1,49 @@
 .profile-img {
   width: 100%;
-
   border: 2px #000000 solid;
   clip-path: polygon(2% 1%, 4% 27%, 2% 51%, 6% 98%, 23% 88%, 38% 98%, 49% 88%, 60% 94%, 96% 97%, 97% 68%, 90% 48%, 98% 20%, 72% 3%, 42% 9%);
 }
 .profile-img--container {
   clip-path: polygon(2% 1%, 4% 27%, 2% 51%, 6% 98%, 23% 88%, 38% 98%, 49% 88%, 60% 94%, 96% 97%, 97% 68%, 90% 48%, 98% 20%, 72% 3%, 42% 9%);
   width: 250px;
+  margin-right: 100px;
 }
 .about--container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 .about--description {
   margin-left: 10px;
   margin-top: 10px;
 }
-.name {
-  display: flex;
-  align-items: center;
-
-  p {
-    font-size: 18px;
-    margin-left: 5px;
-  }
-}
 .about--titles {
-  font-size: 18px;
-  color: black;
+  font-size: 22px;
+  color: greenyellow;
   margin: 0;
+  text-shadow: 0 0 5px #FF0000;
+}
+.title-desc {
+  margin-top: 8px;
+  color: whitesmoke;
+  text-shadow: 1px 1px 5px #0050ff;
+  max-width: 400px;
+}
+.my-cv {
+  color: greenyellow;
+  font-size: 20px;
+  text-shadow: 0 0 11px #f7ff00;
+}
+
+@media only screen and (max-width: 800px) {
+  .profile-img--container {
+
+    margin: 30px 0;
+
+  }
+  .about--container {
+    flex-direction: column;
+  }
+
 }

@@ -1,6 +1,26 @@
 .skills {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
   align-items: center;
   justify-content: center;
+}
+.skill {
+  color: #d303d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0 0 10px #fff400,0 0 10px #0000ff;
+}
+
+@media only screen and (max-width: 1000px) {
+  .skills {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .skills {
+    grid-template-columns: 1fr;
+  }
 }
